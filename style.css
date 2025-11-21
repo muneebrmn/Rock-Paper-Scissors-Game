@@ -1,0 +1,170 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(/assets/fonts/BebasNeue-Regular.ttf);
+}
+body{
+    width: 100%;
+    margin-top: 40px;
+    padding: 0;
+    color: white;
+    background-color: #172041;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* LOGO & SCORE */
+#top{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    gap: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#logo{
+    font-family: BebasNeue;
+    line-height: 10px;
+    letter-spacing: 5px;
+}
+.score{
+    width: 120px;
+    height: 100px;
+    padding: 5px 0 5px 0;
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: BebasNeue;
+    line-height: 0;
+}
+#score{
+    font-size: 50px;
+}
+
+
+
+/* CHOICES */
+#choices{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#choices button{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: white;
+}
+
+
+
+/* RESULT */
+#result{
+    margin-top: 50px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.class1{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#me{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 300px;
+    border: 25px solid #0037ff;
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+#pc{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 300px;
+    border: 25px solid #ff0000;
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+#retry{
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px white solid;
+    color: white;
+}
+#retry:hover{
+    background-color: #4B68F5;
+    border: 0;
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    #top{
+        gap: 70px;
+    }
+    #choices{
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #choices button{
+        width: 200px;
+        height: 200px;
+        img{
+            width: 80px;
+            height: 80px;
+        } 
+    }
+
+    #result{
+        flex-direction: column;
+        gap: 30px;
+        img{
+            width: 80px;
+            height: 80px;
+        }
+    }
+    #me{
+        width: 150px;
+        height: 150px;
+        border: 10px solid;
+    }
+    #pc{
+        width: 150px;
+        height: 150px;
+        border: 10px solid;
+    }
+}

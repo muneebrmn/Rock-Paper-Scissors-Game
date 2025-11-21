@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <source><link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top">
+        <div id="logo">
+            <h1>ROCK</h1>
+            <h1>PAPER</h1>
+            <h1>SCISSORS</h1>
+        </div>
+        <div class="score">
+            <h3>SCORE</h3>
+            <h1 id="score">0</h1>
+        </div>
+    </div>
+
+    <div id="choices">
+        <button id="rock" style="border: 25px solid #e52447;"><img src="assets/images/rock.svg" width="100px" alt="Rock"></button>
+        <button id="paper" style="border: 25px solid #4B68F5;"><img src="assets/images/paper.svg" width="100px" alt="Paper"></button>
+        <button id="scissor" style="border: 25px solid #ECA215"><img src="assets/images/scissors.svg" width="100px" alt="Scissors"></button>
+    </div>
+
+    <div id="result">
+        <div class="class1">
+            <h1 style="font-family: BebasNeue; letter-spacing: 5px;">YOU PICKED</h1>
+            <div id="me"><img src="/assets/images/scissors.svg" alt=""></div>
+        </div>
+        <div id="middle">
+            <h1 id="text" style="font-family: BebasNeue; letter-spacing: 5px;">YOU WIN</h1>
+            <button style="width: 150px; height: 50px;" id="retry">PLAY AGAIN</button>
+        </div>
+        <div class="class1">
+            <h1 style="font-family: BebasNeue; letter-spacing: 5px;">COMPUTER PICKED</h1>
+            <div id="pc"><img src="/assets/images/scissors.svg" alt=""></div>
+        </div>
+    </div>
+
+<script src="script.js"></script> 
+
+</body>
+</html>
