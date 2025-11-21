@@ -1,6 +1,6 @@
 @font-face {
     font-family: BebasNeue;
-    src: url(https://muneebrmn.github.io/assets/fonts/BebasNeue-Regular.ttf);
+    src: url("https://muneebrmn.github.io/assets/fonts/BebasNeue-Regular.ttf");
 }
 body{
     width: 100%;
