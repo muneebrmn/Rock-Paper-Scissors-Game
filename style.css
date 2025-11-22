@@ -133,7 +133,8 @@ body{
 /* MOBILE */
 @media only screen and (max-width: 600px) {
     #top{
-        gap: 70px;
+        margin-top: 0px;
+        gap: 50px;
     }
     #choices{
         margin-top: 30px;
@@ -141,30 +142,31 @@ body{
         gap: 30px;
     }
     #choices button{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         img{
-            width: 80px;
-            height: 80px;
+            width: 50px;
+            height: 50px;
         } 
     }
 
     #result{
+        margin-top: 10px;
         flex-direction: column;
-        gap: 30px;
+        gap: 0px;
         img{
-            width: 80px;
-            height: 80px;
+            width: 50px;
+            height: 50px;
         }
     }
     #me{
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         border: 10px solid;
     }
     #pc{
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         border: 10px solid;
     }
 }
